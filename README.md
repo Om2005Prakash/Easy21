@@ -1,6 +1,16 @@
 # Easy21
 This contains solution to assignment Easy21, in short Reinforcement Learning by David Silver https://www.davidsilver.uk/teaching/
 
+Results:-
+
+
+How you can use this to generate your own results?
+If you don't have jupyter notebook, I would recommend you to installed it and open it there otherwise you can install jupyter 
+plugin in VScode and run these. Just make sure you have the following packages installed.
+1 Numpy
+2 Matplotlib
+3 tqdm
+
 Answer to Question 5
 Q What are the pros and cons of bootstrapping in Easy21?
 
