@@ -27,7 +27,7 @@ more stable in blackjack.
 Q What are the pros and cons of function approximation in Easy21?
 
 Pros
-Very Fast Learning(Can learn in less than 1000 steps as it has a much lower number of features 36 as compared to 210)
+Very Fast Learning(Can learn in less than 1000 episodes as it has a much lower number of features 36 as compared to 210)
 
 Cons
 It also becomes unstable in longer training (degrades after some time)
