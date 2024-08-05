@@ -1,9 +1,11 @@
 # Easy21
 ### This contains solution to assignment Easy21, in short Reinforcement Learning by David Silver https://www.davidsilver.uk/teaching/
 
+
+
 **How you can use this to generate your own results?**  
-You can simply run all the cells of notebook in jupyter notebook. If you don't have jupyter notebook, I would recommend  
-you to install it and open it there otherwise you can install jupyterplugin in VScode and run these. Just make sure you have  
+You can simply run all the cells of notebook in jupyter notebook. If you don't have jupyter notebook, I would recommend
+you to install it and open it there otherwise you can install jupyterplugin in VScode and run these. Just make sure you have
 the following packages installed.
 >1 Numpy  
 >2 Matplotlib  
@@ -11,29 +13,42 @@ the following packages installed.
 
 # Results:-  
 ## Monte Carlo Control
-<picture>
- <img alt="MC V" src="https://raw.githubusercontent.com/Om2005Prakash/Easy21/main/MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20V%202000000%20episodes.png">
-</picture>
-<picture>
- <img alt="MC V" src="https://raw.githubusercontent.com/Om2005Prakash/Easy21/main/MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20Pi%202000000%20episodes.png">
-</picture>
-
----
+<p float = "left">
+ <img alt="MC V" src="MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20V%202000000%20episodes.png" width = "500" >
+ <img alt="MC Pi" src="MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20Pi%202000000%20episodes.png" width = "400" >
+</p>
 
 ## SarsaLam  
-<picture>
- <img alt="SarsaLam sweep" src="https://raw.githubusercontent.com/Om2005Prakash/Easy21/main/SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%20Sweep.png">
-</picture>
-<picture>
- <img alt="MC V" src="https://raw.githubusercontent.com/Om2005Prakash/Easy21/main/SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20V%2030000%20episodes%20Lam%20%3D%200.png">
-</picture>
-<picture>
- <img alt="MC Pi Lam = 0" src="https://raw.githubusercontent.com/Om2005Prakash/Easy21/main/MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20Pi%202000000%20episodes.png">
-</picture>
+<p float = "left">
+ <img alt="SarsaLam sweep" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%20Sweep.png" width = 500 >
+ <img alt="SarsaLam Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%3D0.png" width = 400>
+</p>
+The figure on right shows wins(out of 1000 games) of SarsaLam with Lam = 0 (figure title is wrong it is not Lam = 1)
+<p float = "left">
+ <img alt="SarsaLam V  Lam=0" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20V%2030000%20episodes%20Lam%20%3D%200.png" width = 400>
+ <img alt="SarsaLam Pi Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20Pi%2030000%20episodes%20Lam%20%3D%200.png" width = 400>
+</p>
+
+<p float = "left">
+ <img alt="SarsaLam V  Lam=1" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20V%20100000%20episodes%20Lam%20%3D%201.png" width = 400>
+ <img alt="SarsaLam Pi Lam=1 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20Pi%20100000%20episodes%20Lam%20%3D%201.png" width = 400>
+</p>
 
 ## Linear Function Approximator
+<p float = "left">
+ <img alt="LinApprox sweep" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%20Sweep.png" width = 500 >
+ <img alt="SarsaLam Lam=0 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%3D0.png" width = 400>
+</p>
+The figure on right shows wins(out of 1000 games) of LinApprox with Lam = 0 (figure title is wrong it is not Lam = 1) 
+<p float = "left">
+ <img alt="SarsaLam V  Lam=0" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20V%201000%20episodes.png" width = 400>
+ <img alt="SarsaLam Pi Lam=0 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20Pi%201000%20episodes.png" width = 400>
+</p>
 
-
+<p float = "left">
+ <img alt="SarsaLam V  Lam=1" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20V%201000%20episodes%20Lam%201%20.png" width = 400>
+ <img alt="SarsaLam Pi Lam=1 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20Pi%201000%20episodes%20Lam%201.png" width = 400>
+</p>
 
 ## Answer to Question 5
 
