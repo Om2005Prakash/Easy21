@@ -64,8 +64,8 @@ Q What are the pros and cons of bootstrapping in Easy21?
 ```
 Pros  
 Much faster to learn (MC takes 10_00_000 ep to achieve performance of about 53% wins whereas
-SarsaLam takes 10_000 to 30_000 ep to achieve close to 52-53% and Func_App with SarsaLam takes
-less than 1_000 ep to get accuracy close to 52%)
+SarsaLam takes around 30_000 ep to achieve close to 51% and Func_App with SarsaLam takes
+less than 100_000 ep to get accuracy close to 51%. In contrast, random agent gets an accuracy of about 45%.
 
 Cons  
 It varies wildly depending on the initial initialization of weights
@@ -85,10 +85,11 @@ Q What are the pros and cons of function approximation in Easy21?
 
 ```
 Pros
-Very Fast Learning(Can learn in less than 1000 episodes as it has a much lower number of features 36 as compared to 210)
+Very Fast Learning(As it has a much lower number of features 36 as compared to 210)
 
 Cons
 Very sensitive to randomness of env as well as initialization
+It learn different policy than SarsaLam and MC as it doesn't have fine control over states
 ```
 
 Q  How would you modify the function approximator suggested in this section to get better results in Easy21?
