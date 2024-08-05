@@ -33,7 +33,7 @@ the following packages installed.
 </p>
 
 <p float = "left">
- <img alt="SarsaLam V  Lam=1" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/V%200%20episodes%20Lam%20%3D%201.png" width = 400>
+ <img alt="SarsaLam V  Lam=1" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/V%200%20episodes%20Lam%20%3D%201" width = 400>
  <img alt="SarsaLam Pi Lam=1 MSE" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Pi%200%20episodes%20Lam%20%3D%201.png" width = 400>
 </p>
 
