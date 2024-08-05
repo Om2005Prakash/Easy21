@@ -14,14 +14,14 @@ the following packages installed.
 # Results:-  
 ## Monte Carlo Control
 <p float = "left">
- <img alt="MC V" src="MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20V%202000000%20episodes.png" width = "500" >
+ <img alt="MC V" src="MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20V%202000000%20episodes.png" width = "400" >
  <img alt="MC Pi" src="MC_Results%202024-07-21%2019%3A26%3A46.469298/MC%20Pi%202000000%20episodes.png" width = "400" >
 </p>
 
 ## SarsaLam  
 <p float = "left">
- <img alt="SarsaLam sweep" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%20Sweep.png" width = 500 >
- <img alt="SarsaLam Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%3D0.png" width = 400>
+ <img alt="SarsaLam sweep" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%20Sweep.png" width = 400 >
+ <img alt="SarsaLam Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%3D0.png" width = 300>
 </p>
 The figure on right shows wins(out of 1000 games) of SarsaLam with Lam = 0 (figure title is wrong it is not Lam = 1)
 <p float = "left">
