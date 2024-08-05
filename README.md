@@ -20,34 +20,41 @@ the following packages installed.
 
 ## SarsaLam  
 <p float = "left">
- <img alt="SarsaLam sweep" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%20Sweep.png" width = 400 >
- <img alt="SarsaLam Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/Lam%3D0.png" width = 400>
+ <img alt="SarsaLam sweep" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Lam%20Sweep.png" width = 400 >
 </p>
-The figure on right shows wins(out of 1000 games) of SarsaLam with Lam = 0 (figure title is wrong it is not Lam = 1)
 <p float = "left">
- <img alt="SarsaLam V  Lam=0" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20V%2030000%20episodes%20Lam%20%3D%200.png" width = 400>
- <img alt="SarsaLam Pi Lam=0 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20Pi%2030000%20episodes%20Lam%20%3D%200.png" width = 400>
+ <img alt="SarsaLam Lam=0" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Lam%3D0.png" width = 400 >
+ <img alt="SarsaLam Lam=0" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Lam%3D1.png" width = 400 >
 </p>
 
 <p float = "left">
- <img alt="SarsaLam V  Lam=1" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20V%20100000%20episodes%20Lam%20%3D%201.png" width = 400>
- <img alt="SarsaLam Pi Lam=1 MSE" src="SarsaLam%202024-07-22%2001%3A07%3A39.547999/SarsaLam%20Pi%20100000%20episodes%20Lam%20%3D%201.png" width = 400>
+ <img alt="SarsaLam V  Lam=0" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/V%20322%20episodes%20Lam%20%3D%200.png" width = 400>
+ <img alt="SarsaLam Pi Lam=0 MSE" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Pi%20322%20episodes%20Lam%20%3D%200.png" width = 400>
+</p>
+
+<p float = "left">
+ <img alt="SarsaLam V  Lam=1" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/V%200%20episodes%20Lam%20%3D%201.png" width = 400>
+ <img alt="SarsaLam Pi Lam=1 MSE" src="SarsaLam%202024-08-05%2020%3A51%3A25.945715/Pi%200%20episodes%20Lam%20%3D%201.png" width = 400>
 </p>
 
 ## Linear Function Approximator
 <p float = "left">
- <img alt="LinApprox sweep" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%20Sweep.png" width = 400 >
- <img alt="SarsaLam Lam=0 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%3D0.png" width = 400>
-</p>
-The figure on right shows wins(out of 1000 games) of LinApprox with Lam = 0 (figure title is wrong it is not Lam = 1) 
-<p float = "left">
- <img alt="SarsaLam V  Lam=0" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20V%201000%20episodes.png" width = 400>
- <img alt="SarsaLam Pi Lam=0 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20Pi%201000%20episodes.png" width = 400>
+ <img alt="LinApprox sweep" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/Lam%20Sweep.png" width = 400 >
 </p>
 
 <p float = "left">
- <img alt="SarsaLam V  Lam=1" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20V%201000%20episodes%20Lam%201%20.png" width = 400>
- <img alt="SarsaLam Pi Lam=1 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/LinApprox%20Pi%201000%20episodes%20Lam%201.png" width = 400>
+ <img alt="LinApprox Lam=0" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/Lam%3D0.png" width = 400 >
+ <img alt="LinApprox Lam=1" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/Lam%3D1.png" width = 400 >
+</p>
+
+<p float = "left">
+ <img alt="LinApprox V  Lam=0" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/V%201126%20episodes.png" width = 400>
+ <img alt="LinApprox Pi Lam=0" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/Pi%201126%20episodes.png" width = 400>
+</p>
+
+<p float = "left">
+ <img alt="LinApprox V  Lam=1" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/V%20736%20episodes%20Lam%20%3D%201.png" width = 400>
+ <img alt="LinApprox Pi Lam=1" src="LinApprox%202024-08-05%2020%3A51%3A22.041715/Pi%20736%20episodes%20Lam%201.png" width = 400>
 </p>
 
 ## Answer to Question 5
@@ -62,10 +69,6 @@ less than 1_000 ep to get accuracy close to 52%)
 
 Cons  
 It varies wildly depending on the initial initialization of weights
-
-It learns very fast but becomes unstable in longer training(Performance degrades in longer training
-and it is also sensitive to the randomness of the env i.e. doing 2 runs with the same weight initialization
-we may have one of the agents improving over time whereas other degrades over time)
 ```
 
 Q Would you expect bootstrapping to help more in blackjack or Easy21 ? Why?
@@ -85,7 +88,6 @@ Pros
 Very Fast Learning(Can learn in less than 1000 episodes as it has a much lower number of features 36 as compared to 210)
 
 Cons
-It also becomes unstable in longer training (degrades after some time)
 Very sensitive to randomness of env as well as initialization
 ```
 
