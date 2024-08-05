@@ -36,7 +36,7 @@ The figure on right shows wins(out of 1000 games) of SarsaLam with Lam = 0 (figu
 
 ## Linear Function Approximator
 <p float = "left">
- <img alt="LinApprox sweep" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%20Sweep.png" width = 500 >
+ <img alt="LinApprox sweep" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%20Sweep.png" width = 400 >
  <img alt="SarsaLam Lam=0 MSE" src="LinApprox%202024-08-05%2004%3A51%3A12.961249/Lam%3D0.png" width = 400>
 </p>
 The figure on right shows wins(out of 1000 games) of LinApprox with Lam = 0 (figure title is wrong it is not Lam = 1) 
